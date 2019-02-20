@@ -5,10 +5,12 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev qxn_mobile",
-    "build": "vuepress build qxn_mobile"
+    "build": "vuepress build qxn_mobile",
+    "deploy": "gh-pages -d uuu"
   },
   "dependencies": {
     "element-ui": "^2.5.4",
+    "gh-pages": "^2.0.1",
     "vue-highlight": "^0.0.0",
     "vue-highlightjs": "^1.3.3",
     "vuepress": "^0.14.9"
