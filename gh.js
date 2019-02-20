@@ -1,4 +1,4 @@
 var ghpages = require('gh-pages');
-ghpages.publish('uuu', function(err) {
+ghpages.publish('docs', function(err) {
 	console.log(err)
 });

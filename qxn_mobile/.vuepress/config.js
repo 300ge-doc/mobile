@@ -3,8 +3,8 @@ let path=require('path')
 module.exports = {
   title: '番茄炒蛋',
   description: '随便谢谢',
-	dest:path.resolve('.','docs','dist'), //生成路径
-  "base": "/",
+	dest:path.resolve('.','docs','qxn_mobile'), //生成路径
+  "base": "/qxn_mobile",
   permalink: "/:year/:month/:day/:slug",
   //最后更新时间
   lastUpdated: 'Last Updated', // string | boolean,
